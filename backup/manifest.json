@@ -1,0 +1,187 @@
+{
+  "created_at": "2026-10-11T15:47:07.838199",
+  "sandbox_path": "D:\\Cat 1\\os\\Os_project\\test_folder",
+  "total_files": 20,
+  "files": {
+    "notes1.txt": {
+      "original_name": "notes1.txt",
+      "current_name": "notes1.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 96,
+      "sha256": "a2640dc2dd6de9186675fc86c7cb3fb3ae2874cb10d507873c94329f59f31a15",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.799495"
+    },
+    "notes2.txt": {
+      "original_name": "notes2.txt",
+      "current_name": "notes2.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 101,
+      "sha256": "52dd9c84d922b644410882ee212e2707b90dc634c5da94517e6b681050b9077c",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.800494"
+    },
+    "report.txt": {
+      "original_name": "report.txt",
+      "current_name": "report.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 113,
+      "sha256": "163266aea164915802d0719346abee38561af7bb3bbc13b94d36a39e78c22f1c",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.804007"
+    },
+    "sample_data.csv": {
+      "original_name": "sample_data.csv",
+      "current_name": "sample_data.csv.locked",
+      "extension": ".csv",
+      "size_bytes": 108,
+      "sha256": "28a6f83b57f907f025a28d9c892f38e16038e7c80ebf392df11638f099286e6c",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.807006"
+    },
+    "project_notes.md": {
+      "original_name": "project_notes.md",
+      "current_name": "project_notes.md.locked",
+      "extension": ".md",
+      "size_bytes": 132,
+      "sha256": "189d269ec8615ac45e3e093604cdcbdd9c88c8fea7ee955e81fea33f79d7c735",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.809159"
+    },
+    "system_config.json": {
+      "original_name": "system_config.json",
+      "current_name": "system_config.json.locked",
+      "extension": ".json",
+      "size_bytes": 105,
+      "sha256": "c4369aed2cd7e4b086e80887329fae864426160890bea295e121a913d72fc732",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.811167"
+    },
+    "audit_log.log": {
+      "original_name": "audit_log.log",
+      "current_name": "audit_log.log.locked",
+      "extension": ".log",
+      "size_bytes": 118,
+      "sha256": "e86605b826599962c53ef55f85bb605a3572daf64c781fe131df9dd6a05539aa",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.813166"
+    },
+    "expenses.csv": {
+      "original_name": "expenses.csv",
+      "current_name": "expenses.csv.locked",
+      "extension": ".csv",
+      "size_bytes": 125,
+      "sha256": "3cd0f2395b054cb7857de2e4e34d5155ae031ef8cde92c97a10cc78a205fc075",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.814167"
+    },
+    "presentation_outline.md": {
+      "original_name": "presentation_outline.md",
+      "current_name": "presentation_outline.md.locked",
+      "extension": ".md",
+      "size_bytes": 143,
+      "sha256": "af44ec64f6ba56efd0736e1e5b9970629811bee03a12acedeb319244c9311741",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.816166"
+    },
+    "customer_records.csv": {
+      "original_name": "customer_records.csv",
+      "current_name": "customer_records.csv.locked",
+      "extension": ".csv",
+      "size_bytes": 127,
+      "sha256": "8b5b62bba9d0c1facde1a300c9c53227f534f27395c5920eaba815cea2e06432",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.818164"
+    },
+    "todo_list.txt": {
+      "original_name": "todo_list.txt",
+      "current_name": "todo_list.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 120,
+      "sha256": "1734b4e805074563e6236954cefdb8ca3f1198f9cab777ed0d99a01266af1284",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.820167"
+    },
+    "readme_draft.md": {
+      "original_name": "readme_draft.md",
+      "current_name": "readme_draft.md.locked",
+      "extension": ".md",
+      "size_bytes": 104,
+      "sha256": "9cc3cd287662fd955044c803e1436f79ead8b5627b5f4d9ae61721879afa86bc",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.822165"
+    },
+    "server_metrics.json": {
+      "original_name": "server_metrics.json",
+      "current_name": "server_metrics.json.locked",
+      "extension": ".json",
+      "size_bytes": 111,
+      "sha256": "f7af4d9bb75b99224c4f4e6432ec7445bddacf1a9ff47f9f121b4ef885239ffa",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.823166"
+    },
+    "network_diag.log": {
+      "original_name": "network_diag.log",
+      "current_name": "network_diag.log.locked",
+      "extension": ".log",
+      "size_bytes": 135,
+      "sha256": "859ee472c933e55adbfcaae6a397ac8919f792746d1fb03fbeed39215549e87f",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.825167"
+    },
+    "research_paper.txt": {
+      "original_name": "research_paper.txt",
+      "current_name": "research_paper.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 111,
+      "sha256": "9da909c84542cfea30b353753129d7340831c8c7933933d4d83f61ca19a49fd7",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.827166"
+    },
+    "inventory.csv": {
+      "original_name": "inventory.csv",
+      "current_name": "inventory.csv.locked",
+      "extension": ".csv",
+      "size_bytes": 121,
+      "sha256": "a637ada573202680df2208c86fa4da6a57c1d0576601f2f65d9dcef3f5cf53d9",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.829167"
+    },
+    "meeting_minutes.txt": {
+      "original_name": "meeting_minutes.txt",
+      "current_name": "meeting_minutes.txt.locked",
+      "extension": ".txt",
+      "size_bytes": 124,
+      "sha256": "dff1651958236c450334b0657fd39d503d617ce34195c6fc000e54080b70aa1d",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.832238"
+    },
+    "app_settings.json": {
+      "original_name": "app_settings.json",
+      "current_name": "app_settings.json.locked",
+      "extension": ".json",
+      "size_bytes": 105,
+      "sha256": "0a44b828950079c098fbb43710bca370e0d6a5d1fd7f75849c2ff2862c7a0e9f",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.834210"
+    },
+    "changelog.md": {
+      "original_name": "changelog.md",
+      "current_name": "changelog.md.locked",
+      "extension": ".md",
+      "size_bytes": 113,
+      "sha256": "729d9c4fa3536059f045cb7a4020c44238e4ae373b0dfb7ffce331189ed133a3",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.836168"
+    },
+    "error_dump.log": {
+      "original_name": "error_dump.log",
+      "current_name": "error_dump.log.locked",
+      "extension": ".log",
+      "size_bytes": 98,
+      "sha256": "1b0e7624105f8ee0a413255a70a417fec6344ba1b919ed5ecf6efb2d06884569",
+      "status": "locked",
+      "registered_at": "2026-10-11T15:47:07.838199"
+    }
+  }
+}

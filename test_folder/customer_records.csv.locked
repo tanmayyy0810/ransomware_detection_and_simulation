@@ -1,0 +1,4 @@
+client_id,account_tier,status,region
+901,Enterprise,Active,US-East
+902,Academic,Active,EU-Central
+903,Developer,Active,AP-South

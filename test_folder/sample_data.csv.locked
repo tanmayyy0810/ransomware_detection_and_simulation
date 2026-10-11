@@ -1,0 +1,4 @@
+id,metric_name,baseline_value,observed_value
+1,cpu_util,42.5,45.1
+2,io_rate,120.0,131.4
+3,mem_used,68.2,70.5

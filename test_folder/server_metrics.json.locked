@@ -1,0 +1,6 @@
+{
+  "uptime_hours": 720,
+  "load_average": [0.15, 0.22, 0.18],
+  "disk_free_gb": 128.4,
+  "active_daemons": 8
+}

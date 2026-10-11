@@ -1,0 +1,924 @@
+[
+  {
+    "alert_id": "ALERT-20261011-0001",
+    "timestamp": "2026-10-11 12:36:31",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 0.03,
+    "distinct_files_affected": 11,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0002",
+    "timestamp": "2026-10-11 12:36:47",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 0.02,
+    "distinct_files_affected": 11,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0003",
+    "timestamp": "2026-10-11 12:37:10",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 0.02,
+    "distinct_files_affected": 11,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0004",
+    "timestamp": "2026-10-11 12:37:39",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 3.11,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0005",
+    "timestamp": "2026-10-11 12:38:35",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 15,
+    "threshold": 14,
+    "window_seconds": 24.0,
+    "measured_duration": 4.36,
+    "distinct_files_affected": 15,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0006",
+    "timestamp": "2026-10-11 12:38:46",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 15,
+    "threshold": 14,
+    "window_seconds": 24.0,
+    "measured_duration": 0.02,
+    "distinct_files_affected": 15,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0001",
+    "timestamp": "2026-10-11 12:41:13",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 3.12,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0002",
+    "timestamp": "2026-10-11 12:42:48",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 23.0,
+    "measured_duration": 18.23,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0003",
+    "timestamp": "2026-10-11 12:42:53",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 13,
+    "threshold": 10,
+    "window_seconds": 23.0,
+    "measured_duration": 21.89,
+    "distinct_files_affected": 13,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked",
+      "inventory.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0004",
+    "timestamp": "2026-10-11 12:43:01",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 23.0,
+    "measured_duration": 21.7,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "expenses.csv.locked",
+      "inventory.csv.locked",
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked",
+      "notes1.txt.locked",
+      "notes2.txt.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0005",
+    "timestamp": "2026-10-11 12:43:06",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 23.0,
+    "measured_duration": 0.02,
+    "distinct_files_affected": 11,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0001",
+    "timestamp": "2026-10-11 15:40:19",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 5.0,
+    "measured_duration": 3.14,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0002",
+    "timestamp": "2026-10-11 15:41:13",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 16,
+    "threshold": 15,
+    "window_seconds": 5.0,
+    "measured_duration": 4.67,
+    "distinct_files_affected": 16,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0003",
+    "timestamp": "2026-10-11 15:42:36",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 7.0,
+    "measured_duration": 3.44,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0004",
+    "timestamp": "2026-10-11 15:44:06",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 3.45,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0005",
+    "timestamp": "2026-10-11 15:44:56",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 22.33,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0006",
+    "timestamp": "2026-10-11 15:45:00",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 13,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.36,
+    "distinct_files_affected": 13,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked",
+      "inventory.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0007",
+    "timestamp": "2026-10-11 15:45:04",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 13,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.36,
+    "distinct_files_affected": 13,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked",
+      "inventory.csv.locked",
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0008",
+    "timestamp": "2026-10-11 15:45:08",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 13,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.38,
+    "distinct_files_affected": 13,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "expenses.csv.locked",
+      "inventory.csv.locked",
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked",
+      "notes1.txt.locked",
+      "notes2.txt.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0009",
+    "timestamp": "2026-10-11 15:45:12",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 13,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.38,
+    "distinct_files_affected": 13,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked",
+      "notes1.txt.locked",
+      "notes2.txt.locked",
+      "presentation_outline.md.locked",
+      "project_notes.md.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0010",
+    "timestamp": "2026-10-11 15:45:26",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.58,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "report.txt.locked",
+      "research_paper.txt.locked",
+      "sample_data.csv.locked",
+      "server_metrics.json.locked",
+      "system_config.json.locked",
+      "todo_list.txt.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0011",
+    "timestamp": "2026-10-11 15:45:35",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 0.02,
+    "distinct_files_affected": 12,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0012",
+    "timestamp": "2026-10-11 15:45:43",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 21,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 7.72,
+    "distinct_files_affected": 20,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0013",
+    "timestamp": "2026-10-11 15:45:47",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 201,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 12.09,
+    "distinct_files_affected": 20,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0014",
+    "timestamp": "2026-10-11 15:46:13",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 13,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 26.0,
+    "distinct_files_affected": 13,
+    "changed_extensions": [],
+    "sample_files": [
+      "expenses.csv",
+      "presentation_outline.md",
+      "customer_records.csv",
+      "todo_list.txt",
+      "readme_draft.md",
+      "server_metrics.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0015",
+    "timestamp": "2026-10-11 15:46:25",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 0.03,
+    "distinct_files_affected": 12,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0016",
+    "timestamp": "2026-10-11 15:46:48",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 20,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 23.0,
+    "distinct_files_affected": 20,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0017",
+    "timestamp": "2026-10-11 15:46:54",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 21,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 6.45,
+    "distinct_files_affected": 21,
+    "changed_extensions": [],
+    "sample_files": [
+      "app_settings - Copy.json",
+      "audit_log - Copy.log",
+      "changelog - Copy.md",
+      "customer_records - Copy.csv",
+      "error_dump - Copy.log",
+      "expenses - Copy.csv"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0018",
+    "timestamp": "2026-10-11 15:47:01",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 40,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 13.11,
+    "distinct_files_affected": 40,
+    "changed_extensions": [],
+    "sample_files": [
+      "app_settings - Copy.json",
+      "audit_log - Copy.log",
+      "changelog - Copy.md",
+      "customer_records - Copy.csv",
+      "error_dump - Copy.log",
+      "expenses - Copy.csv"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0019",
+    "timestamp": "2026-10-11 15:47:07",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 61,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 19.42,
+    "distinct_files_affected": 40,
+    "changed_extensions": [],
+    "sample_files": [
+      "app_settings - Copy.json",
+      "audit_log - Copy.log",
+      "changelog - Copy.md",
+      "customer_records - Copy.csv",
+      "error_dump - Copy.log",
+      "expenses - Copy.csv"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0020",
+    "timestamp": "2026-10-11 15:47:12",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 81,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 24.34,
+    "distinct_files_affected": 41,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings - Copy.json",
+      "audit_log - Copy.log",
+      "changelog - Copy.md",
+      "customer_records - Copy.csv",
+      "error_dump - Copy.log",
+      "expenses - Copy.csv"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0021",
+    "timestamp": "2026-10-11 15:47:16",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 63,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 21.94,
+    "distinct_files_affected": 23,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0022",
+    "timestamp": "2026-10-11 15:47:20",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 65,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 26.0,
+    "distinct_files_affected": 25,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0023",
+    "timestamp": "2026-10-11 15:47:24",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 47,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 23.0,
+    "distinct_files_affected": 27,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json",
+      "audit_log.log",
+      "changelog.md",
+      "customer_records.csv",
+      "error_dump.log",
+      "expenses.csv"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0024",
+    "timestamp": "2026-10-11 15:47:28",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 29,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 21.12,
+    "distinct_files_affected": 29,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0025",
+    "timestamp": "2026-10-11 15:47:34",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 21.33,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0026",
+    "timestamp": "2026-10-11 15:47:47",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 0.66,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0027",
+    "timestamp": "2026-10-11 15:47:54",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 11,
+    "window_seconds": 26.0,
+    "measured_duration": 0.62,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  }
+]

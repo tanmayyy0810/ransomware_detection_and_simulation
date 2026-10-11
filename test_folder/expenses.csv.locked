@@ -1,0 +1,4 @@
+item_id,category,amount_usd,approved
+101,Lab Equipment,450.00,true
+102,Textbooks,120.50,true
+103,Software License,300.00,true

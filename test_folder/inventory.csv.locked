@@ -1,0 +1,4 @@
+asset_tag,type,location,status
+LAB-01,Workstation,Room 304,In Use
+LAB-02,Server,Rack A,In Use
+LAB-03,Switch,Rack B,Active

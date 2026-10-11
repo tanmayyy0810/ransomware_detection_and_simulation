@@ -1,0 +1,6 @@
+{
+  "service_name": "os_monitor",
+  "version": "1.0.0",
+  "buffer_size_kb": 1024,
+  "log_level": "INFO"
+}
