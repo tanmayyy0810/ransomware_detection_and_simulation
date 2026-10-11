@@ -920,5 +920,153 @@
       "expenses.csv.locked"
     ],
     "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0001",
+    "timestamp": "2026-10-11 21:25:39",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 6.19,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0002",
+    "timestamp": "2026-10-11 21:25:44",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 6.8,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "inventory.csv.locked",
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked",
+      "notes1.txt.locked",
+      "notes2.txt.locked",
+      "presentation_outline.md.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0003",
+    "timestamp": "2026-10-11 21:25:54",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "HIGH",
+    "reason": "Rapid high-frequency filesystem modification burst exceeding threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 0.03,
+    "distinct_files_affected": 11,
+    "changed_extensions": [],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0004",
+    "timestamp": "2026-10-11 21:26:00",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 21,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 6.05,
+    "distinct_files_affected": 21,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "notes1.txt",
+      "notes2.txt",
+      "report.txt",
+      "sample_data.csv",
+      "project_notes.md",
+      "system_config.json"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0005",
+    "timestamp": "2026-10-11 21:26:06",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 11,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 6.16,
+    "distinct_files_affected": 11,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "app_settings.json.locked",
+      "audit_log.log.locked",
+      "changelog.md.locked",
+      "customer_records.csv.locked",
+      "error_dump.log.locked",
+      "expenses.csv.locked"
+    ],
+    "details": {}
+  },
+  {
+    "alert_id": "ALERT-20261011-0006",
+    "timestamp": "2026-10-11 21:26:10",
+    "directory": "test_folder",
+    "category": "Filesystem Behavioral Anomaly",
+    "severity": "CRITICAL",
+    "reason": "Rapid bulk file renaming with extension modification (.locked) exceeding security threshold",
+    "qualifying_events": 12,
+    "threshold": 10,
+    "window_seconds": 7.0,
+    "measured_duration": 6.78,
+    "distinct_files_affected": 12,
+    "changed_extensions": [
+      ".locked"
+    ],
+    "sample_files": [
+      "inventory.csv.locked",
+      "meeting_minutes.txt.locked",
+      "network_diag.log.locked",
+      "notes1.txt.locked",
+      "notes2.txt.locked",
+      "presentation_outline.md.locked"
+    ],
+    "details": {}
   }
 ]

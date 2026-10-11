@@ -1160,3 +1160,143 @@
 [2026-10-11 15:47:54] [DEBUG] Filesystem event: [renamed] system_config.json -> system_config.json.locked
 [2026-10-11 15:47:54] [DEBUG] Filesystem event: [renamed] todo_list.txt -> todo_list.txt.locked
 [2026-10-11 15:48:03] [INFO] Monitoring stopped on directory 'D:\Cat 1\os\Os_project\test_folder'
+[2026-10-11 21:24:51] [INFO] Monitoring started on directory 'D:\Cat 1\os\Os_project\test_folder' (Threshold: >10 events in 5.0s)
+[2026-10-11 21:25:09] [DEBUG] Filesystem event: [renamed] app_settings.json -> app_settings.json.locked
+[2026-10-11 21:25:10] [DEBUG] Filesystem event: [renamed] audit_log.log -> audit_log.log.locked
+[2026-10-11 21:25:11] [DEBUG] Filesystem event: [renamed] changelog.md -> changelog.md.locked
+[2026-10-11 21:25:11] [DEBUG] Filesystem event: [renamed] customer_records.csv -> customer_records.csv.locked
+[2026-10-11 21:25:12] [DEBUG] Filesystem event: [renamed] error_dump.log -> error_dump.log.locked
+[2026-10-11 21:25:13] [DEBUG] Filesystem event: [renamed] expenses.csv -> expenses.csv.locked
+[2026-10-11 21:25:13] [DEBUG] Filesystem event: [renamed] inventory.csv -> inventory.csv.locked
+[2026-10-11 21:25:14] [DEBUG] Filesystem event: [renamed] meeting_minutes.txt -> meeting_minutes.txt.locked
+[2026-10-11 21:25:14] [DEBUG] Filesystem event: [renamed] network_diag.log -> network_diag.log.locked
+[2026-10-11 21:25:15] [DEBUG] Filesystem event: [renamed] notes1.txt -> notes1.txt.locked
+[2026-10-11 21:25:16] [DEBUG] Filesystem event: [renamed] notes2.txt -> notes2.txt.locked
+[2026-10-11 21:25:16] [DEBUG] Filesystem event: [renamed] presentation_outline.md -> presentation_outline.md.locked
+[2026-10-11 21:25:17] [DEBUG] Filesystem event: [renamed] project_notes.md -> project_notes.md.locked
+[2026-10-11 21:25:17] [DEBUG] Filesystem event: [renamed] readme_draft.md -> readme_draft.md.locked
+[2026-10-11 21:25:18] [DEBUG] Filesystem event: [renamed] report.txt -> report.txt.locked
+[2026-10-11 21:25:19] [DEBUG] Filesystem event: [renamed] research_paper.txt -> research_paper.txt.locked
+[2026-10-11 21:25:19] [DEBUG] Filesystem event: [renamed] sample_data.csv -> sample_data.csv.locked
+[2026-10-11 21:25:20] [DEBUG] Filesystem event: [renamed] server_metrics.json -> server_metrics.json.locked
+[2026-10-11 21:25:21] [DEBUG] Filesystem event: [renamed] system_config.json -> system_config.json.locked
+[2026-10-11 21:25:21] [DEBUG] Filesystem event: [renamed] todo_list.txt -> todo_list.txt.locked
+[2026-10-11 21:25:32] [INFO] Monitoring stopped on directory 'D:\Cat 1\os\Os_project\test_folder'
+[2026-10-11 21:25:32] [INFO] Monitoring started on directory 'D:\Cat 1\os\Os_project\test_folder' (Threshold: >10 events in 7.0s)
+[2026-10-11 21:25:33] [DEBUG] Filesystem event: [renamed] app_settings.json -> app_settings.json.locked
+[2026-10-11 21:25:34] [DEBUG] Filesystem event: [renamed] audit_log.log -> audit_log.log.locked
+[2026-10-11 21:25:35] [DEBUG] Filesystem event: [renamed] changelog.md -> changelog.md.locked
+[2026-10-11 21:25:35] [DEBUG] Filesystem event: [renamed] customer_records.csv -> customer_records.csv.locked
+[2026-10-11 21:25:36] [DEBUG] Filesystem event: [renamed] error_dump.log -> error_dump.log.locked
+[2026-10-11 21:25:36] [DEBUG] Filesystem event: [renamed] expenses.csv -> expenses.csv.locked
+[2026-10-11 21:25:37] [DEBUG] Filesystem event: [renamed] inventory.csv -> inventory.csv.locked
+[2026-10-11 21:25:38] [DEBUG] Filesystem event: [renamed] meeting_minutes.txt -> meeting_minutes.txt.locked
+[2026-10-11 21:25:38] [DEBUG] Filesystem event: [renamed] network_diag.log -> network_diag.log.locked
+[2026-10-11 21:25:39] [DEBUG] Filesystem event: [renamed] notes1.txt -> notes1.txt.locked
+[2026-10-11 21:25:39] [DEBUG] Filesystem event: [renamed] notes2.txt -> notes2.txt.locked
+
+======================================================================
+[2026-10-11 21:25:39] [SECURITY ALERT] Incident: ALERT-20261011-0001
+[2026-10-11 21:25:39] [SECURITY ALERT] Reason: Rapid bulk file renaming with extension modification (.locked) exceeding security threshold
+[2026-10-11 21:25:39] [SECURITY ALERT] Details: 11 changes within 6.19s (threshold: >10 in 7.0s)
+[2026-10-11 21:25:39] [SECURITY ALERT] Distinct Files Affected: 11
+[2026-10-11 21:25:39] [SECURITY ALERT] Extensions Observed: .locked
+[2026-10-11 21:25:39] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:25:40] [DEBUG] Filesystem event: [renamed] presentation_outline.md -> presentation_outline.md.locked
+[2026-10-11 21:25:41] [DEBUG] Filesystem event: [renamed] project_notes.md -> project_notes.md.locked
+[2026-10-11 21:25:41] [DEBUG] Filesystem event: [renamed] readme_draft.md -> readme_draft.md.locked
+[2026-10-11 21:25:42] [DEBUG] Filesystem event: [renamed] report.txt -> report.txt.locked
+[2026-10-11 21:25:43] [DEBUG] Filesystem event: [renamed] research_paper.txt -> research_paper.txt.locked
+[2026-10-11 21:25:43] [DEBUG] Filesystem event: [renamed] sample_data.csv -> sample_data.csv.locked
+[2026-10-11 21:25:44] [DEBUG] Filesystem event: [renamed] server_metrics.json -> server_metrics.json.locked
+
+======================================================================
+[2026-10-11 21:25:44] [SECURITY ALERT] Incident: ALERT-20261011-0002
+[2026-10-11 21:25:44] [SECURITY ALERT] Reason: Rapid bulk file renaming with extension modification (.locked) exceeding security threshold
+[2026-10-11 21:25:44] [SECURITY ALERT] Details: 12 changes within 6.80s (threshold: >10 in 7.0s)
+[2026-10-11 21:25:44] [SECURITY ALERT] Distinct Files Affected: 12
+[2026-10-11 21:25:44] [SECURITY ALERT] Extensions Observed: .locked
+[2026-10-11 21:25:44] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:25:44] [DEBUG] Filesystem event: [renamed] system_config.json -> system_config.json.locked
+[2026-10-11 21:25:45] [DEBUG] Filesystem event: [renamed] todo_list.txt -> todo_list.txt.locked
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] notes1.txt
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] notes2.txt
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] report.txt
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] sample_data.csv
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] project_notes.md
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] system_config.json
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] audit_log.log
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] expenses.csv
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] presentation_outline.md
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] customer_records.csv
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] todo_list.txt
+
+======================================================================
+[2026-10-11 21:25:54] [SECURITY ALERT] Incident: ALERT-20261011-0003
+[2026-10-11 21:25:54] [SECURITY ALERT] Reason: Rapid high-frequency filesystem modification burst exceeding threshold
+[2026-10-11 21:25:54] [SECURITY ALERT] Details: 11 changes within 0.03s (threshold: >10 in 7.0s)
+[2026-10-11 21:25:54] [SECURITY ALERT] Distinct Files Affected: 11
+[2026-10-11 21:25:54] [SECURITY ALERT] Extensions Observed: 
+[2026-10-11 21:25:54] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] readme_draft.md
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] server_metrics.json
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] network_diag.log
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] research_paper.txt
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] inventory.csv
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] meeting_minutes.txt
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] app_settings.json
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] changelog.md
+[2026-10-11 21:25:54] [DEBUG] Filesystem event: [modified] error_dump.log
+[2026-10-11 21:26:00] [DEBUG] Filesystem event: [renamed] app_settings.json -> app_settings.json.locked
+
+======================================================================
+[2026-10-11 21:26:00] [SECURITY ALERT] Incident: ALERT-20261011-0004
+[2026-10-11 21:26:00] [SECURITY ALERT] Reason: Rapid bulk file renaming with extension modification (.locked) exceeding security threshold
+[2026-10-11 21:26:00] [SECURITY ALERT] Details: 21 changes within 6.05s (threshold: >10 in 7.0s)
+[2026-10-11 21:26:00] [SECURITY ALERT] Distinct Files Affected: 21
+[2026-10-11 21:26:00] [SECURITY ALERT] Extensions Observed: .locked
+[2026-10-11 21:26:00] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:26:00] [DEBUG] Filesystem event: [renamed] audit_log.log -> audit_log.log.locked
+[2026-10-11 21:26:01] [DEBUG] Filesystem event: [renamed] changelog.md -> changelog.md.locked
+[2026-10-11 21:26:02] [DEBUG] Filesystem event: [renamed] customer_records.csv -> customer_records.csv.locked
+[2026-10-11 21:26:02] [DEBUG] Filesystem event: [renamed] error_dump.log -> error_dump.log.locked
+[2026-10-11 21:26:03] [DEBUG] Filesystem event: [renamed] expenses.csv -> expenses.csv.locked
+[2026-10-11 21:26:04] [DEBUG] Filesystem event: [renamed] inventory.csv -> inventory.csv.locked
+[2026-10-11 21:26:04] [DEBUG] Filesystem event: [renamed] meeting_minutes.txt -> meeting_minutes.txt.locked
+[2026-10-11 21:26:05] [DEBUG] Filesystem event: [renamed] network_diag.log -> network_diag.log.locked
+[2026-10-11 21:26:05] [DEBUG] Filesystem event: [renamed] notes1.txt -> notes1.txt.locked
+[2026-10-11 21:26:06] [DEBUG] Filesystem event: [renamed] notes2.txt -> notes2.txt.locked
+
+======================================================================
+[2026-10-11 21:26:06] [SECURITY ALERT] Incident: ALERT-20261011-0005
+[2026-10-11 21:26:06] [SECURITY ALERT] Reason: Rapid bulk file renaming with extension modification (.locked) exceeding security threshold
+[2026-10-11 21:26:06] [SECURITY ALERT] Details: 11 changes within 6.16s (threshold: >10 in 7.0s)
+[2026-10-11 21:26:06] [SECURITY ALERT] Distinct Files Affected: 11
+[2026-10-11 21:26:06] [SECURITY ALERT] Extensions Observed: .locked
+[2026-10-11 21:26:06] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:26:07] [DEBUG] Filesystem event: [renamed] presentation_outline.md -> presentation_outline.md.locked
+[2026-10-11 21:26:07] [DEBUG] Filesystem event: [renamed] project_notes.md -> project_notes.md.locked
+[2026-10-11 21:26:08] [DEBUG] Filesystem event: [renamed] readme_draft.md -> readme_draft.md.locked
+[2026-10-11 21:26:08] [DEBUG] Filesystem event: [renamed] report.txt -> report.txt.locked
+[2026-10-11 21:26:09] [DEBUG] Filesystem event: [renamed] research_paper.txt -> research_paper.txt.locked
+[2026-10-11 21:26:10] [DEBUG] Filesystem event: [renamed] sample_data.csv -> sample_data.csv.locked
+[2026-10-11 21:26:10] [DEBUG] Filesystem event: [renamed] server_metrics.json -> server_metrics.json.locked
+
+======================================================================
+[2026-10-11 21:26:10] [SECURITY ALERT] Incident: ALERT-20261011-0006
+[2026-10-11 21:26:10] [SECURITY ALERT] Reason: Rapid bulk file renaming with extension modification (.locked) exceeding security threshold
+[2026-10-11 21:26:10] [SECURITY ALERT] Details: 12 changes within 6.78s (threshold: >10 in 7.0s)
+[2026-10-11 21:26:10] [SECURITY ALERT] Distinct Files Affected: 12
+[2026-10-11 21:26:10] [SECURITY ALERT] Extensions Observed: .locked
+[2026-10-11 21:26:10] [SECURITY ALERT] Target Directory: test_folder
+======================================================================
+[2026-10-11 21:26:11] [DEBUG] Filesystem event: [renamed] system_config.json -> system_config.json.locked
+[2026-10-11 21:26:12] [DEBUG] Filesystem event: [renamed] todo_list.txt -> todo_list.txt.locked
+[2026-10-11 21:26:20] [INFO] Monitoring stopped on directory 'D:\Cat 1\os\Os_project\test_folder'
+[2026-10-11 21:26:20] [INFO] Monitoring started on directory 'D:\Cat 1\os\Os_project\test_folder' (Threshold: >10 events in 7.0s)
+[2026-10-11 21:26:23] [INFO] Monitoring stopped on directory 'D:\Cat 1\os\Os_project\test_folder'
