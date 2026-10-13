@@ -177,7 +177,7 @@ class MainWindow:
         # Header
         hdr = tk.Frame(p1, bg=styles.BG_PANEL)
         hdr.pack(fill="x", pady=(0, 8))
-        ttk.Label(hdr, text="PANEL 1: LIVE FILE EXPLORER", style="PanelTitle.TLabel").pack(anchor="w")
+        ttk.Label(hdr, text="LIVE FILE EXPLORER", style="PanelTitle.TLabel").pack(anchor="w")
         self.lbl_file_count = ttk.Label(hdr, text="Monitored Target: test_folder (0 files)", style="PanelSub.TLabel")
         self.lbl_file_count.pack(anchor="w")
 
@@ -211,7 +211,7 @@ class MainWindow:
         # Header
         hdr = tk.Frame(p2, bg=styles.BG_PANEL)
         hdr.pack(fill="x", pady=(0, 8))
-        ttk.Label(hdr, text="PANEL 2: SIMULATION ACTIVITY", style="PanelTitle.TLabel").pack(anchor="w")
+        ttk.Label(hdr, text="SIMULATION ACTIVITY", style="PanelTitle.TLabel").pack(anchor="w")
         ttk.Label(hdr, text="Safe sandboxed bulk rename engine", style="PanelSub.TLabel").pack(anchor="w")
 
         # Speed Configuration Row
@@ -269,7 +269,7 @@ class MainWindow:
         # Header
         hdr = tk.Frame(p3, bg=styles.BG_PANEL)
         hdr.pack(fill="x", pady=(0, 8))
-        ttk.Label(hdr, text="PANEL 3: DETECTOR ACTIVITY", style="PanelTitle.TLabel").pack(anchor="w")
+        ttk.Label(hdr, text="DETECTOR ACTIVITY", style="PanelTitle.TLabel").pack(anchor="w")
         ttk.Label(hdr, text="Real-time Watchdog behavioral engine", style="PanelSub.TLabel").pack(anchor="w")
 
         # Threat Assessment Banner
@@ -328,7 +328,7 @@ class MainWindow:
 
         # Live Event Log
         tk.Label(p3, text="RECENT DETECTOR EVENTS", font=(styles.FONT_FAMILY, 8, "bold"), bg=styles.BG_PANEL, fg=styles.TEXT_MUTED).pack(anchor="w", pady=(2, 2))
-        self.log_det = ScrollingLog(p3, height=6)
+        self.log_det = ScrollingLog(p3, height=8)
         self.log_det.pack(fill="both", expand=True)
 
     def _build_statusbar(self):

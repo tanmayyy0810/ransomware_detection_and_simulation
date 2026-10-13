@@ -51,7 +51,7 @@ class StatusBadge(tk.Frame):
 class MetricCard(tk.Frame):
     """Compact numeric display card for real-time monitoring indicators."""
     def __init__(self, parent, title: str, initial_value: str = "0", **kwargs):
-        super().__init__(parent, bg=styles.BG_CARD, highlightthickness=1, highlightbackground=styles.BORDER_COLOR, padx=10, pady=8, **kwargs)
+        super().__init__(parent, bg=styles.BG_CARD, highlightthickness=1, highlightbackground=styles.BORDER_COLOR, padx=10, pady=4, **kwargs)
         self.title_lbl = tk.Label(
             self,
             text=title.upper(),
@@ -64,7 +64,7 @@ class MetricCard(tk.Frame):
         self.val_lbl = tk.Label(
             self,
             text=initial_value,
-            font=(styles.FONT_FAMILY, 15, "bold"),
+            font=(styles.FONT_FAMILY, 12, "bold"),
             bg=styles.BG_CARD,
             fg=styles.TEXT_BRIGHT
         )

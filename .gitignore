@@ -31,3 +31,5 @@ backup/manifest.json
 
 # Test folder - demo files scanned by the app (line endings change on Windows)
 test_folder/
+/test_folder
+/reports
